@@ -125,12 +125,14 @@ body{
 
 .content-1 h2{
     font-size: 5rem;
-    font-weight: 550;
+    font-weight: 500;
     text-align: center;
 }
 
 .button {
-    background: #0e4f1f;
+    height: 70px;
+    width: 150px;
+    background: #000000;
     color: white;
     cursor: pointer;
     padding: 8px;
@@ -139,8 +141,9 @@ body{
 
 .button:hover,
 .button:active {
-    background: white;
-    color: #0e4f1f;
+    background: #0e4f1f;
+    color: white;
+    /* border: lightskyblue; */
 }
 
 .button:focus {
@@ -224,9 +227,8 @@ body{
 .button-1 {
     /* position: absolute; */
     cursor: pointer;
-    background: cyan;
-    border-radius: 5px;
-    border: 100px;
+    background: transparent;
+    border: 2px solid white;
     top: 190%;
     left: 50%;
     transform: translate(5%, 10%);
@@ -236,8 +238,9 @@ body{
 
 .button-1:hover,
 .button-1:active {
-    background: white;
-    color: darkcyan;
+    background: #00a5fd;
+    color: white;
+    border-color: #00a5fd;
 }
 
 .button-1:focus {
@@ -351,7 +354,8 @@ body{
 
 .media-img {
     width: 350px; 
-    height: 400px
+    height: 400px;
+    margin: 1px;
 }
 
 .final-section {
@@ -362,17 +366,20 @@ body{
 }
 
 .btn {
-    background-color: #0000;
-    color: black;
+    height: 70px;
+    width: 150px;
+    background-color: #000000;
+    color: white;
     cursor: pointer;
     padding: 8px;
+    font-size: 14px;
     font-weight: bold;
 }
 
 .btn:hover,
 .btn:active {
-    background: blue;
-    color: skyblue;
+    background: #00a5fd;
+    color: white;
 }
 
 .btn:focus {
